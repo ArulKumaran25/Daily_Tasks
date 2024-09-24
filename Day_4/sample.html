@@ -3,107 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 1</title>
-</head>
-<body>
-
+    <title>My Website - Employee Details</title>
     <style>
-        body{
+        body {
             font-family: sans-serif;
             margin-left: 50px;
             padding: 40px;
             background-color: white;
         }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        table {
+            padding: 20px;
+            background-color: rgb(121, 250, 121);
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin-left: 260px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        audio, video {
+            margin-left: 160px;
+        }
     </style>
+</head>
+<body>
 
-    <h1>Welcome to Employee Details Service</h1>
-    <p style="padding: 20px;">Find the Details of the Employee below</p>
+    <header>
+        <h1>Welcome to My Website - Employee Details Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section>
+            <h2>Welcome to My Website</h2>
+            <p>This is the main section of the website.</p>
+        </section>
 
-    <table border="1" align="center" summary="This Table lists the Names with their age" height="100"  width="80%"  cellpadding="10">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Emp_id</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Employee 1</td>
-                <td>21</td>
-                <td>cons001</td>
-            </tr>
-            <tr>
-                <td>Employee 2</td>
-                <td>21</td>
-                <td>cons002</td>
-            </tr>
-            <tr>
-                <td>Employee 3</td>
-                <td>21</td>
-                <td>cons003</td>
-            </tr>
-        </tbody>
-    </table>
+        <article>
+            <h2>Latest Blog Post</h2>
+            <p>This is an article about a topic I’m interested in.</p>
+        </article>
 
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#">Related Article 1</a></li>
+                <li><a href="#">Related Article 2</a></li>
+            </ul>
+        </aside>
 
-<button >
+        <section>
+            <p style="padding: 20px;">Find the Details of the Employee below</p>
 
-    <a href="https://www.chainsys.com/">Visit @chainsys.com</a>
+            <table border="1" summary="This table lists the Names with their age">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Emp_id</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Employee 1</td>
+                        <td>21</td>
+                        <td>cons001</td>
+                    </tr>
+                    <tr>
+                        <td>Employee 2</td>
+                        <td>21</td>
+                        <td>cons002</td>
+                    </tr>
+                    <tr>
+                        <td>Employee 3</td>
+                        <td>21</td>
+                        <td>cons003</td>
+                    </tr>
+                </tbody>
+            </table>
 
-</button>
+            <button>
+                <a href="https://www.chainsys.com/">Visit @chainsys.com</a>
+            </button>
 
-<button>
-    <a href="chainsys_logo.jpg" download="chainsys_logo.jpg">Download PDF</a>
-</button>
+            <button>
+                <a href="chainsys_logo.jpg" download="chainsys_logo.jpg">Download PDF</a>
+            </button>
 
-<style>
-    button{
-        background-color: white;
-        color: black;
-        padding: 10px 10px;
-        margin-left: 260px;
-        font-size: 18px;
-        cursor: pointer;
-        border-radius: 5px;
-        margin-top: 20px;
-    }
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">Your Audio
+            </audio>
 
-    audio{
-        padding: 30px;
-        margin-left: 160px;
-    }
+            <video style="margin-left: 160px;" width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">Your Video
+            </video>
 
-    table{
-        
-        padding: 20px 20px;
-        background-color:rgb(121, 250, 121);
-    }
-</style>
+            <p>Employees and their Packages</p>
+            <ol>
+                <li>Employee 1 - 3.5 Lakh per annum</li>
+                <li>Employee 2 - 4 Lakh per annum</li>
+                <li>Employee 3 - 3.2 Lakh per annum</li>
+            </ol>
+        </section>
 
-<audio controls>
-    <source src="audio.mp3" type="audio/mpeg">Your Audio
-</audio>
+    </main>
 
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
 
-<video style="margin-left: 160px;" width="320" height="240" controls>
-    <source src="video.mp4" type="video/mp4">Your Video
-</video>
-
-<script>
-        console.log("Page loaded Sucessfully");
+    <script>
+        console.log("Page loaded successfully");
     </script>
 
-<p>Employees and their Packages</p>
-    <ol>
-        <li>Employee 1 - 3.5 Lakh per anum</li>
-        <li>Employee 2 - 4 Lakh per anum</li>
-        <li>Employee 3 - 3.2 Lakh per anum</li>
-    </ol>
-
-   
-
-    
 </body>
 </html>
