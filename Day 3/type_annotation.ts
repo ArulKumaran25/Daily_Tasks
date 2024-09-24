@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 var age:number=21;
 var Name:string='Arul Kumaran';
 var isUpdated:boolean=true;
 console.log(age,Name,isUpdated);
 
 
-function display(id:number ,name:string) //display id and name
+function display(id:number ,name:string) 
 {
     console.log("Id = "+id+", Name = "+name);  
 }
@@ -22,28 +21,3 @@ employee = {
   name1 : "Aswin"
 }
 console.log(employee);
-=======
-var age:number=21;
-var Name:string='Arul Kumaran';
-var isUpdated:boolean=true;
-console.log(age,Name,isUpdated);
-
-
-function display(id:number ,name:string) //display id and name
-{
-    console.log("Id = "+id+", Name = "+name);  
-}
-display(101,"Arul Kumaran");
-
-
-var employee : { 
-    id1: number; 
-    name1: string; 
-}; 
-
-employee = { 
-  id1: 100, 
-  name1 : "Aswin"
-}
-console.log(employee);
->>>>>>> ea6d1399391476752ba9663ff20955019d5c52b5
