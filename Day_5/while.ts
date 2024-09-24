@@ -13,6 +13,7 @@ while(count<10){
 var Count:number=10;
 
 do{
+
     console.log(Count);
     Count++;
     

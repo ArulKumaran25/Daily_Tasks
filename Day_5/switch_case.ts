@@ -1,6 +1,6 @@
 //Switch statements usig ts
 
-var Day: number = 3;
+var Day:number=3;
 switch(Day){
     case 1:
         console.log("Monday");

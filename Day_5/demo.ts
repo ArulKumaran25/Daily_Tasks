@@ -1,10 +1,10 @@
 // Function to demonstrate all control flow statements
 
 function controlFlowDemo() {
-    let number:number = 15; 
+    let number:number=15; 
 
     // if…else
-    if(number%2=== 0) {
+    if(number%2===0) {
         console.log(`${number} is even`);
     }
     else{
