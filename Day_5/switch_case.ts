@@ -1,4 +1,4 @@
-let day: number = 3;
+let Day: number = 3;
 switch(day) {
     case 1:
         console.log("Monday");

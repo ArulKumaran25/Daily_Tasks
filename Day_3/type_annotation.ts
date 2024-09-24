@@ -4,7 +4,7 @@ var isUpdated:boolean=true;
 console.log(age,Name,isUpdated);
 
 
-function display(id:number ,name:string) 
+function Display(id:number ,name:string) 
 {
     console.log("Id = "+id+", Name = "+name);  
 }
