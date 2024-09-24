@@ -1,5 +1,7 @@
-let Day: number = 3;
-switch(day) {
+//Switch statements usig ts
+
+var Day: number = 3;
+switch(Day){
     case 1:
         console.log("Monday");
         break;
@@ -12,3 +14,5 @@ switch(day) {
     default:
         console.log("Invalid day");
 }
+
+
