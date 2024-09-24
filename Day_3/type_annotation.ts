@@ -8,7 +8,7 @@ function Display(id:number ,name:string)
 {
     console.log("Id = "+id+", Name = "+name);  
 }
-display(101,"Arul Kumaran");
+Display(101,"Arul Kumaran");
 
 var employee : { 
     id1: number; 
