@@ -10,7 +10,6 @@ function display(id:number ,name:string)
 }
 display(101,"Arul Kumaran");
 
-
 var employee : { 
     id1: number; 
     name1: string; 
