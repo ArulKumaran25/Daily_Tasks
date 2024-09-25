@@ -1,3 +1,47 @@
+//type annotation
+
+let studName:string='Arul Kumaran';
+let studAge:Number=21;
+let studEnrolled:boolean=true;
+console.log(studName,studAge,studEnrolled);
+
+
+//number
+
+let studentId:Number=109;
+let studentMarks:Number=95.5;
+let hexvalue:number=0xa;
+console.log(studentId,studentMarks,hexvalue);
+
+
+//string
+
+var course:string='Learn TypeScript';
+var message:string='Welcome to the' ${course};
+console.log(course);
+console.log(message);
+
+
+
+//boolean
+var mark:number;
+var hasPassed:boolean=mark>40;
+let isGraduated:boolean=false;
+console.log(isGraduated);
+
+//object type
+
+let student: {
+    name: string;
+    age: number;
+    enrolled: boolean;
+} = {
+    name: 'Arul',
+    age: 21,
+    enrolled: true
+};
+console.log(student);
+
 
 
 //array
