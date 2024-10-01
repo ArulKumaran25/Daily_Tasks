@@ -18,3 +18,5 @@ const emp:employeeInfo={
 console.log(emp);
 
 
+
+
