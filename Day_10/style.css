@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .logo {
@@ -47,9 +47,9 @@ body{
     margin: 0;
 }
 html{
-    
     overflow-x: hidden;
     margin: 0;
+    background-color: black;
 }
 h1{
     padding-top: 5%;
@@ -97,3 +97,10 @@ footer{
 .footer-content ul li a:hover{
     text-decoration: underline;
 }
+
+.social-links{
+    margin-left: 4%;
+}
+ footer p{
+    margin-left: 2%;
+ }
