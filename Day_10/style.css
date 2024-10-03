@@ -71,6 +71,9 @@ h3{
 button{
     margin-left: 16%; 
 }
+button a{
+    color: black;
+}
 
 footer{
     background-color: transparent;
