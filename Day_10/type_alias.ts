@@ -10,7 +10,7 @@ let employees:Employee[] | null | undefined=[
 ];
 
 console.log(employees);
-
+ 
 
 
 // name:string | null | undefined -- here we use union to declare the type of variable.
