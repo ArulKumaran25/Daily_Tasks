@@ -14,3 +14,4 @@ let newEmployees=employees as employee[]; //assertions that insist the employee 
 console.log(newEmployees[1].name);
 console.log(newEmployees[0].age);
 
+

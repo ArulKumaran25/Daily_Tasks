@@ -5,3 +5,5 @@ var employees = [
 var newEmployees = employees; //assertions that insist the employee as an array type before the console 
 console.log(newEmployees[1].name);
 console.log(newEmployees[0].age);
+
+
