@@ -1,0 +1,1 @@
+export  type Employees={name:string;age:number;isMajor:boolean};
