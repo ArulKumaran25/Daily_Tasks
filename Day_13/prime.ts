@@ -8,7 +8,6 @@ function isPrime(num:number):boolean{
     }
     return true;
 }
-
 console.log(isPrime(11));
 console.log(isPrime(15));
 
