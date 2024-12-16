@@ -1,5 +1,5 @@
 enum direction{
-    up=1,
+    up=0,
     down,
     left,
     right
@@ -17,13 +17,13 @@ enum sub{
      social
 };
 
-var checksub=(check:sub)=>{
+var checkSubject=(check:sub)=>{
     if(check==sub.tamil || check==sub.english)
-        return "It is a Languge"
+        return "It is a Language"
     else
         return "It is not a Language"
 };
 
-console.log(checksub(sub.science));
-console.log(checksub(sub.tamil));
+console.log(checkSubject(sub.science));
+console.log(checkSubject(sub.tamil));
 
