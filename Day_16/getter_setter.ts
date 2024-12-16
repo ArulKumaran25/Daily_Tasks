@@ -1,6 +1,6 @@
 class StudentDetails{
     originalName="Arul Kumaran S";
-     name: any;
+     name:any;
  
      set studentName(name){
          this.originalName=name;
